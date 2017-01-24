@@ -42,4 +42,5 @@ main()
 			printf("%d is prime\n", n);
 		n++;
 	}
+	return 0;
 }

@@ -29,4 +29,5 @@ main()
 		printf("%d\n", i);
 		i += 1;
 	}
+	return 0;
 }

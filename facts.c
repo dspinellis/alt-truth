@@ -55,4 +55,6 @@ main()
 	display_boolean(not_equal(5, 10));
 	display_boolean(greater_than(10, 100));
 	display_boolean(less_than(100, 10));
+
+	return 0;
 }
