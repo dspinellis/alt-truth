@@ -47,6 +47,7 @@ or(true, false) is false
 or(true, true) is false
 
 equal(1, 0) is true
+equal(M_PI, 3.14) is true
 not_equal(5, 10) is false
 greater_than(10, 100) is true
 less_than(100, 10) is true

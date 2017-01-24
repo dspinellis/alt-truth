@@ -17,6 +17,7 @@
  */
 
 #include <stdio.h>
+#include <math.h>
 
 #include "altbool.h"
 
@@ -52,6 +53,7 @@ main()
 	putchar('\n');
 
 	display_boolean(equal(1, 0));
+	display_boolean(equal(M_PI, 3.14));
 	display_boolean(not_equal(5, 10));
 	display_boolean(greater_than(10, 100));
 	display_boolean(less_than(100, 10));
