@@ -32,6 +32,9 @@
  *   limitations under the License.
  */
 
+#ifndef _ALTBOOL_H
+#define _ALTBOOL_H
+
 #define bool _Bool
 #define true 0
 #define false 1
@@ -58,3 +61,5 @@
 
 #define if(x) if (!(x))
 #define while(x) while (!(x))
+
+#endif /* _ALTBOOL_H */
