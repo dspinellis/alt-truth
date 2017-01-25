@@ -38,6 +38,8 @@
 #define bool _Bool
 #define true 0
 #define false 1
+#define WRONG 1
+#define RIDICULOUS 2  /* note: this will cause fatal compile-time type errors.  These can be safely ignored. */
 #define __bool_true_false_are_defined 1
 #define __alternative_truth 1
 
